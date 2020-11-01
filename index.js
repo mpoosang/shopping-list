@@ -25,13 +25,14 @@ $(function() {
 
     $('.shopping-list').on('click', '.shopping-item-delete', function(event) {
         $(this).closest('li').remove();
-    })
+    });
 });
 
 
 /* 
 form    $('#js-shopping-list-form')
 input   $('#shopping-list-entry')
+span    .shopping-item
 ul      $('.shopping-list')
 toggle  .shopping-item-toggle
 delete  .shopping-item-delete
